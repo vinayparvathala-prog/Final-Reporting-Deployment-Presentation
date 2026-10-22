@@ -1,0 +1,92 @@
+{
+  "project": "Apex Planet Data Analytics Internship \u2014 Task 5",
+  "generated_at_utc": "2026-10-22T14:12:44.537006+00:00",
+  "csv_outputs_found": 4,
+  "outputs": [
+    {
+      "file": "outputs\\forecast_metrics.csv",
+      "rows": 3,
+      "columns": [
+        "Model",
+        "MAE",
+        "RMSE",
+        "MAPE_percent"
+      ],
+      "numeric_summary": {
+        "MAE": {
+          "mean": 10.154,
+          "min": 7.358,
+          "max": 12.719,
+          "sum": 30.463
+        },
+        "RMSE": {
+          "mean": 12.354,
+          "min": 8.745,
+          "max": 15.907,
+          "sum": 37.062
+        },
+        "MAPE_percent": {
+          "mean": 5.232,
+          "min": 3.92,
+          "max": 6.425,
+          "sum": 15.696
+        }
+      }
+    },
+    {
+      "file": "outputs\\monthly_sales.csv",
+      "rows": 24,
+      "columns": [
+        "Date",
+        "MonthlySales"
+      ],
+      "numeric_summary": {
+        "MonthlySales": {
+          "mean": 4684.473,
+          "min": 3343.48,
+          "max": 5721.5,
+          "sum": 112427.36
+        }
+      }
+    },
+    {
+      "file": "outputs\\silhouette_scores.csv",
+      "rows": 5,
+      "columns": [
+        "k",
+        "silhouette_score"
+      ],
+      "numeric_summary": {
+        "k": {
+          "mean": 4.0,
+          "min": 2.0,
+          "max": 6.0,
+          "sum": 20.0
+        },
+        "silhouette_score": {
+          "mean": 0.268,
+          "min": 0.252,
+          "max": 0.312,
+          "sum": 1.338
+        }
+      }
+    },
+    {
+      "file": "outputs\\weekly_sales.csv",
+      "rows": 106,
+      "columns": [
+        "Date",
+        "WeeklySales"
+      ],
+      "numeric_summary": {
+        "WeeklySales": {
+          "mean": 1060.635,
+          "min": 127.74,
+          "max": 1346.32,
+          "sum": 112427.36
+        }
+      }
+    }
+  ],
+  "note": "Automatically generated summary. Verify results and add interpretation before submission."
+}
